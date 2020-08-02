@@ -1,0 +1,169 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Venta" type="xs:int" minOccurs="0" />
+                <xs:element name="Cliente" type="xs:int" minOccurs="0" />
+                <xs:element name="Fecha" type="xs:string" minOccurs="0" />
+                <xs:element name="Nombre" type="xs:string" minOccurs="0" />
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="Articulo" type="xs:string" minOccurs="0" />
+                <xs:element name="cantidad" type="xs:int" minOccurs="0" />
+                <xs:element name="Precio" type="xs:float" minOccurs="0" />
+                <xs:element name="Total" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Venta>19</Venta>
+    <Cliente>7</Cliente>
+    <Fecha>18/08/2017 09:15:46 </Fecha>
+    <Nombre>Cibel</Nombre>
+    <ID>10</ID>
+    <Articulo>hojas</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>70</Precio>
+    <Total>70</Total>
+  </Table>
+  <Table>
+    <Venta>19</Venta>
+    <Cliente>7</Cliente>
+    <Fecha>18/08/2017 09:15:46 </Fecha>
+    <Nombre>Cibel</Nombre>
+    <ID>8</ID>
+    <Articulo>Goma</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>2</Precio>
+    <Total>2</Total>
+  </Table>
+  <Table>
+    <Venta>19</Venta>
+    <Cliente>7</Cliente>
+    <Fecha>18/08/2017 09:15:46 </Fecha>
+    <Nombre>Cibel</Nombre>
+    <ID>3</ID>
+    <Articulo>Boligrafo</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>6.5</Precio>
+    <Total>6.5</Total>
+  </Table>
+  <Table>
+    <Venta>19</Venta>
+    <Cliente>7</Cliente>
+    <Fecha>18/08/2017 09:15:46 </Fecha>
+    <Nombre>Cibel</Nombre>
+    <ID>11</ID>
+    <Articulo>Tijeras</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>6</Precio>
+    <Total>6</Total>
+  </Table>
+  <Table>
+    <Venta>19</Venta>
+    <Cliente>7</Cliente>
+    <Fecha>18/08/2017 09:15:46 </Fecha>
+    <Nombre>Cibel</Nombre>
+    <ID>9</ID>
+    <Articulo>Libreta Scribe</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>18</Precio>
+    <Total>18</Total>
+  </Table>
+  <Table>
+    <Venta>19</Venta>
+    <Cliente>7</Cliente>
+    <Fecha>18/08/2017 09:15:46 </Fecha>
+    <Nombre>Cibel</Nombre>
+    <ID>4</ID>
+    <Articulo>Calculadora Cientifica</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>65.5</Precio>
+    <Total>65.5</Total>
+  </Table>
+  <Table>
+    <Venta>19</Venta>
+    <Cliente>7</Cliente>
+    <Fecha>18/08/2017 09:15:46 </Fecha>
+    <Nombre>Cibel</Nombre>
+    <ID>2</ID>
+    <Articulo>cuaderno</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>7.5</Precio>
+    <Total>7.5</Total>
+  </Table>
+  <Table>
+    <Venta>20</Venta>
+    <Cliente>7</Cliente>
+    <Fecha>18/08/2017 09:24:17 </Fecha>
+    <Nombre>Cibel</Nombre>
+    <ID>3</ID>
+    <Articulo>Boligrafo</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>6.5</Precio>
+    <Total>6.5</Total>
+  </Table>
+  <Table>
+    <Venta>21</Venta>
+    <Cliente>1</Cliente>
+    <Fecha>20/08/2017 11:11:18 </Fecha>
+    <Nombre>Goku</Nombre>
+    <ID>4</ID>
+    <Articulo>Calculadora Cientifica</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>65.5</Precio>
+    <Total>65.5</Total>
+  </Table>
+  <Table>
+    <Venta>22</Venta>
+    <Cliente>2</Cliente>
+    <Fecha>20/08/2017 11:28:15 </Fecha>
+    <Nombre>Kevin</Nombre>
+    <ID>11</ID>
+    <Articulo>Tijeras</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>6</Precio>
+    <Total>6</Total>
+  </Table>
+  <Table>
+    <Venta>22</Venta>
+    <Cliente>2</Cliente>
+    <Fecha>20/08/2017 11:28:15 </Fecha>
+    <Nombre>Kevin</Nombre>
+    <ID>9</ID>
+    <Articulo>Libreta Scribe</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>18</Precio>
+    <Total>18</Total>
+  </Table>
+  <Table>
+    <Venta>22</Venta>
+    <Cliente>2</Cliente>
+    <Fecha>20/08/2017 11:28:15 </Fecha>
+    <Nombre>Kevin</Nombre>
+    <ID>10</ID>
+    <Articulo>hojas</Articulo>
+    <cantidad>2</cantidad>
+    <Precio>70</Precio>
+    <Total>140</Total>
+  </Table>
+  <Table>
+    <Venta>22</Venta>
+    <Cliente>2</Cliente>
+    <Fecha>20/08/2017 11:28:15 </Fecha>
+    <Nombre>Kevin</Nombre>
+    <ID>1</ID>
+    <Articulo>Lapiz</Articulo>
+    <cantidad>1</cantidad>
+    <Precio>2</Precio>
+    <Total>2</Total>
+  </Table>
+</NewDataSet>

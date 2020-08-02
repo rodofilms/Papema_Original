@@ -1,0 +1,78 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_articulos" type="xs:int" minOccurs="0" />
+                <xs:element name="Nombre" type="xs:string" minOccurs="0" />
+                <xs:element name="existencia" type="xs:int" minOccurs="0" />
+                <xs:element name="Precio_x0020_de_x0020_Venta" type="xs:float" minOccurs="0" />
+                <xs:element name="Importe" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id_articulos>1</id_articulos>
+    <Nombre>Lapiz</Nombre>
+    <existencia>97</existencia>
+    <Precio_x0020_de_x0020_Venta>2</Precio_x0020_de_x0020_Venta>
+    <Importe>194</Importe>
+  </Table>
+  <Table>
+    <id_articulos>2</id_articulos>
+    <Nombre>cuaderno</Nombre>
+    <existencia>96</existencia>
+    <Precio_x0020_de_x0020_Venta>7.5</Precio_x0020_de_x0020_Venta>
+    <Importe>720</Importe>
+  </Table>
+  <Table>
+    <id_articulos>3</id_articulos>
+    <Nombre>Boligrafo</Nombre>
+    <existencia>192</existencia>
+    <Precio_x0020_de_x0020_Venta>6.5</Precio_x0020_de_x0020_Venta>
+    <Importe>1248</Importe>
+  </Table>
+  <Table>
+    <id_articulos>4</id_articulos>
+    <Nombre>Calculadora Cientifica</Nombre>
+    <existencia>74</existencia>
+    <Precio_x0020_de_x0020_Venta>65.5</Precio_x0020_de_x0020_Venta>
+    <Importe>4847</Importe>
+  </Table>
+  <Table>
+    <id_articulos>8</id_articulos>
+    <Nombre>Goma</Nombre>
+    <existencia>41</existencia>
+    <Precio_x0020_de_x0020_Venta>2</Precio_x0020_de_x0020_Venta>
+    <Importe>82</Importe>
+  </Table>
+  <Table>
+    <id_articulos>9</id_articulos>
+    <Nombre>Libreta Scribe</Nombre>
+    <existencia>81</existencia>
+    <Precio_x0020_de_x0020_Venta>18</Precio_x0020_de_x0020_Venta>
+    <Importe>1458</Importe>
+  </Table>
+  <Table>
+    <id_articulos>10</id_articulos>
+    <Nombre>hojas</Nombre>
+    <existencia>92</existencia>
+    <Precio_x0020_de_x0020_Venta>70</Precio_x0020_de_x0020_Venta>
+    <Importe>6440</Importe>
+  </Table>
+  <Table>
+    <id_articulos>11</id_articulos>
+    <Nombre>Tijeras</Nombre>
+    <existencia>95</existencia>
+    <Precio_x0020_de_x0020_Venta>6</Precio_x0020_de_x0020_Venta>
+    <Importe>570</Importe>
+  </Table>
+</NewDataSet>

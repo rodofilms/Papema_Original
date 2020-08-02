@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_articulos" type="xs:int" minOccurs="0" />
+                <xs:element name="nombre_articulo" type="xs:string" minOccurs="0" />
+                <xs:element name="precio_venta" type="xs:float" minOccurs="0" />
+                <xs:element name="cantidad" type="xs:int" minOccurs="0" />
+                <xs:element name="total_venta" type="xs:double" minOccurs="0" />
+                <xs:element name="Importe" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id_articulos>1</id_articulos>
+    <nombre_articulo>Lapiz</nombre_articulo>
+    <precio_venta>2</precio_venta>
+    <cantidad>1</cantidad>
+    <total_venta>41.76</total_venta>
+    <Importe>2</Importe>
+  </Table>
+  <Table>
+    <id_articulos>9</id_articulos>
+    <nombre_articulo>Libreta Scribe</nombre_articulo>
+    <precio_venta>18</precio_venta>
+    <cantidad>1</cantidad>
+    <total_venta>41.76</total_venta>
+    <Importe>18</Importe>
+  </Table>
+  <Table>
+    <id_articulos>10</id_articulos>
+    <nombre_articulo>hojas</nombre_articulo>
+    <precio_venta>70</precio_venta>
+    <cantidad>2</cantidad>
+    <total_venta>41.76</total_venta>
+    <Importe>140</Importe>
+  </Table>
+  <Table>
+    <id_articulos>11</id_articulos>
+    <nombre_articulo>Tijeras</nombre_articulo>
+    <precio_venta>6</precio_venta>
+    <cantidad>1</cantidad>
+    <total_venta>41.76</total_venta>
+    <Importe>6</Importe>
+  </Table>
+</NewDataSet>
